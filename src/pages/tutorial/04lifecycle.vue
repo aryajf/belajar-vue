@@ -1,7 +1,7 @@
 <template>
     <div>
-        <h1>Tutorial Lifecycle</h1>
-        <p id="textnya">tessss</p>
+        <h1>Belajar Lifecycle</h1>
+        <p id="tesnya">Tesss</p>
     </div>
 </template>
 
@@ -9,19 +9,20 @@
     export default{
         data(){
             return{
-                pesan: 'haloo'
+                nama: 'Bang Messi'
             }
         },
         created(){
-            // Dijalanin pas layar masih putih
-            console.log(this.pesan)
+            // saat layar masih putih, cocok untuk manipulasi data contoh ambil dan taruh data API
+            console.log('CREATED')
+            console.log(this.nama)
+            this.nama = "Black Messi"
+            console.log(this.nama)
         },
         mounted(){
-            // Dijalanin pas layar udah nampil semua elemen html
-            console.log(this.pesan)
-            this.pesan = 'haii kawan'
-            console.log(this.pesan)
-            document.getElementById('textnya').innerHTML = 'wow'
+            // saat semua tag html muncul
+            console.log('MOUNTED')
+            document.getElementById('tesnya').innerHTML = 'WOOW'
         }
     }
 </script>

@@ -19,7 +19,7 @@
         data(){
             return{
                 status: true,
-                tiket: 1
+                tiket: 3
             }
         },
         methods:{

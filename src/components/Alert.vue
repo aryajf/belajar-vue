@@ -7,7 +7,7 @@ export default{
     // Data isinya sudah ditetapkan, sedangkan props isinya berasal dari pengirim / emaknya
     data(){
         return{
-            nama: 'kepin gamasuk'
+            nama: 'kepin masuk'
         }
     },
     props:{

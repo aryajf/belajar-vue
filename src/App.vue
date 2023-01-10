@@ -15,7 +15,7 @@
               <router-link to="/about" class="nav-link">About</router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/pokemon" class="nav-link">Pokemon</router-link>
+              <router-link to="/movie" class="nav-link">Movie</router-link>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

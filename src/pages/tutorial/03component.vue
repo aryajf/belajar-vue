@@ -1,6 +1,9 @@
 <template>
     <div>
-        <alert text="Login" udin="alert-success"></alert>
+        <table border="1">
+
+        </table>
+        <alert text="Ganteng" udin="alert-success"></alert>
         <h1>Halo minna san</h1>
         <alert text="Logout" udin="alert-danger"></alert>
     </div>
