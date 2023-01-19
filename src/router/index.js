@@ -12,6 +12,11 @@ const routes = [
         component: () => import('../pages/About.vue')
     },
     {
+        path: '/tutorial/0',
+        name: 'variable',
+        component: () => import('../pages/tutorial/00variable.vue')
+    },
+    {
         path: '/tutorial/1',
         name: 'conditional',
         component: () => import('../pages/tutorial/01conditional.vue')
@@ -32,9 +37,24 @@ const routes = [
         component: () => import('../pages/tutorial/04lifecycle.vue')
     },
     {
+        path: '/tutorial/5',
+        name: 'computed',
+        component: () => import('../pages/tutorial/05computed.vue')
+    },
+    {
+        path: '/tutorial/6',
+        name: 'watch',
+        component: () => import('../pages/tutorial/06watch.vue')
+    },
+    {
         path: '/movie',
         name: 'movie home',
         component: () => import('../pages/movie/Home.vue')
+    },
+    {
+        path: '/movie/:id',
+        name: 'movie detail',
+        component: () => import('../pages/movie/Show.vue')
     }
 ]
 

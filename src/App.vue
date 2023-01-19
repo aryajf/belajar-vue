@@ -22,10 +22,13 @@
                 Tutorial
               </a>
               <ul class="dropdown-menu">
+                <li><router-link to="/tutorial/0" class="dropdown-item">00 Variable</router-link></li>
                 <li><router-link to="/tutorial/1" class="dropdown-item">01 Conditional</router-link></li>
                 <li><router-link to="/tutorial/2" class="dropdown-item">02 Looping</router-link></li>
                 <li><router-link to="/tutorial/3" class="dropdown-item">03 Components</router-link></li>
                 <li><router-link to="/tutorial/4" class="dropdown-item">04 Lifecycle</router-link></li>
+                <li><router-link to="/tutorial/5" class="dropdown-item">05 Computed</router-link></li>
+                <li><router-link to="/tutorial/6" class="dropdown-item">06 Watch</router-link></li>
               </ul>
             </li>
           </ul>
